@@ -1,7 +1,6 @@
 require 'app'
-
-describe "Docking Station" do
-  it "should exist" do
-    expect(DockingStation.is_a? Class).to eq true
+RSpec.describe DockingStation do
+  describe "should respond to the method release_bike" do
+    it {is_expected.to respond_to(:release_bike)}
   end
 end
