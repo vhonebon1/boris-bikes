@@ -1,6 +1,13 @@
 class DockingStation
-def initialize
+  def initialize
+  end
+
+  def release_bike
+  end
 end
-def release_bike
-end
+
+class Bike
+  def working?
+    true
+  end
 end
