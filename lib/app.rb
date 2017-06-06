@@ -8,6 +8,9 @@ class DockingStation
 end
 
 class Bike
+  def initialize
+  end
+  
   def working?
     true
   end
